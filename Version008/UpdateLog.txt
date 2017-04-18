@@ -1,0 +1,14 @@
+! Version 0.0.7 Created By Jackel
+# Edited Line 211 ( Created 'update' Function )
+# Edited Line 143 ( Created Startup Update Check )
+# Created Function 'CheckForUpdates'
+
+! Version 0.0.8 Created By Jackel
+# Edited Line 222 ( Created 'packages' Function )
+# [NOTE]: Information On Function
+# --------------------------------
+# Downloads Latest 'UpdateDependencies.py'
+# Runs For Possible Revertion On Updates
+# Runs Same Package As Update
+# --------------------------------
+# Created 'packagesRun' On line 124
