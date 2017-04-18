@@ -134,10 +134,17 @@ def atscan_Run():
     os.chdir(home)
     Running()
 
+def CheckForUpdates():
+    print bcolors.HEADER+"Checking For Updates"
+    os.system("python Updater.py")
+    time.sleep(3)
+    os.system("clear")
+    Running()
+
 def StartingAnime():
     print str(Starting_Anime)
     time.sleep(5)
-    Running()
+    CheckForUpdates()
 
 def Client_SList():
     try:
