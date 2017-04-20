@@ -1,4 +1,6 @@
-!WARNING! Files Have Been Recently Added With Some Potential Bugs Stay With Version 0.0.9 For Now!WARNING!
+TopKekTools UpdateLog 
+Please Note Version 0.0.1 Is Updates Wont Be Possible Until It Is Fixed
+! Version 0.0.7 Created By Jackel
 # Edited Line 211 ( Created 'update' Function )
 # Edited Line 143 ( Created Startup Update Check )
 # Created Function 'CheckForUpdates'
@@ -44,4 +46,3 @@ $ Known Bugs
 # Edited Line 63 ( Added New Failed Entry )
 # Edited Line 73 ( Added Exit Command )
 # Edited Line 76 ( Added Host Command )
-TKT Update Packages For Internal 'Updater.py' Script
