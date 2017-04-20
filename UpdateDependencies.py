@@ -28,7 +28,7 @@ versions = """
 ##\~~\..         """+bcolors.OKBLUE+"""4) Version 0.1.0"""+bcolors+OkGREEN+"""         ../~~/##
 ###\~~\...       """+bcolors.FAIL+"""5) No Other Update"""+bcolors.OKGREEN+"""       .../~~/###
 ##################################################
-"""+bcolors.FAIL+""" Type """+bcolors.ENDC+"""'abort'"""+bcolors.FAIL+""" To Exit Script"""+bcolors.OKGREEN
+"""+bcolors.FAIL+"Aborting"
 
 host = socket.gethostname()
 
@@ -113,3 +113,4 @@ def VersionChoice():
         sys.exit(1)
 
 VersionChoiceStart()
+
