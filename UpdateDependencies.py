@@ -41,25 +41,26 @@ def VersionChoiceStart():
 def VersionChoice():
     continueme = raw_input(bcolors.OKBLUE+"["+bcolors.FAIL+str(host)+bcolors.OKBLUE+"]?:>> ")
     if continueme == str("1"):
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version007/install.py")
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version007/TKT007.py")
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/UpdateLog.txt")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version007/install.py -q")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version007/TKT007.py -q")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/UpdateLog.txt -q")
         os.system("python install.py")
         sys.exit(1)
 
     elif continueme == str("2"):
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version008/TKT008.py")
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version008/UpdateLog.txt")
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version008/install.py")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version008/TKT008.py -q")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version008/UpdateLog.txt -q")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version008/install.py -q")
         os.system("python install.py")
         sys.exit(1)
 
     elif continueme == str("3"):
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/Oculus.py")
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/TKT009.py")
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/UpdateLog.txt")
-        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/install.py")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/Oculus.py -q")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/TKT009.py -q")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/UpdateLog.txt -q")
+        os.system("wget https://raw.githubusercontent.com/T0PK3K3L1TE/TKTUpdates/master/Version009/install.py -q")
         os.system("python install.py")
+        sys.exit(1)
 
     elif continueme == str("abort"):
         print bcolors.WARNING+"Operation Aborted..."
